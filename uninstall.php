@@ -9,6 +9,8 @@ $option_names = array(
 	'pagenavi_options'
 );
 
+#stefano wins
+
 
 if ( is_multisite() ) {
 	$ms_sites = function_exists( 'get_sites' ) ? get_sites() : wp_get_sites();
