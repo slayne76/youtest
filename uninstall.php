@@ -2,8 +2,6 @@
 /*
  * Uninstall plugin
  */
-if ( !defined( 'WP_UNINSTALL_PLUGIN' ) )
-	exit ();
 	
 if ( is_multisite() ) {
 	$ms_sites = function_exists( 'get_sites' ) ? get_sites() : wp_get_sites();
