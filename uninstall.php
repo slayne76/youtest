@@ -4,11 +4,7 @@
  */
 if ( !defined( 'WP_UNINSTALL_PLUGIN' ) )
 	exit ();
-
-$option_names = array(
-	'pagenavi_options'
-);
-
+	
 if ( is_multisite() ) {
 	$ms_sites = function_exists( 'get_sites' ) ? get_sites() : wp_get_sites();
 
