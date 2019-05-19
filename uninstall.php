@@ -15,13 +15,3 @@ if ( is_multisite() ) {
 		}
 	}
 }
-
-/**
- * Delete plugin table when uninstalled
- *
- * @access public
- * @return void
- */
-function plugin_uninstalled() {
-	global $wpdb;
-}
